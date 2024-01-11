@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .card {
+            text-align: center;
+            border-radius: 3px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .card-image {
+            margin: 16px 16px 0;
+        }
+
+        .card-body {
+            padding-top: 0px;
+        }
+
+        .card-columns {
+            box-shadow: 1px 1px 1px 1px darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Card Columns -->
+    <div class="card-columns row mt-5">
+        <h3>Card Columns</h3>
+        <div class="list-card col-sm-4">
+            <div class="card blue">
+                <img class="card-image" src="./img/car.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Text here</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-card col-sm-4">
+            <div class="card yellow">
+                <img class="card-image" src="./img/car.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Text here</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-card col-sm-4">
+            <div class="card red">
+                <img class="card-image" src="./img/car.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Text here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+
+</body>
+
+</html>
